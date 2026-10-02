@@ -1,0 +1,67 @@
+body {
+    font-family:  "Dancing Script", cursive;
+    background-color: #edd8f4;
+    color:rgb(24, 24, 24);
+    font-size: 20px;
+    
+}
+h1,h5{
+    text-align: center;
+}
+.c{
+    border: 3px solid white; 
+    padding: 20px; 
+    color: rgb(8, 8, 8); 
+    font-size: 20px;  
+    margin: 50px;
+ 
+ }       
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bb137b;
+  border-radius: 4px;
+  width: 50%;
+}
+
+button {
+  padding: 10px 12px;
+  background-color: #d0469b;
+  color: white;
+  border: 1px solid #f90690;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f30999;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+li {
+  background: #d788b6;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+li.completed {
+  text-decoration: line-through;
+  color: rgb(185, 51, 149);
+}
+
+.delete-btn {
+  background: #f906a8;
+  padding: 4px 8px;
+}
+
+.delete-btn:hover {
+  background: #e20d91;
+}
